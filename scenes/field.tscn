@@ -1,20 +1,28 @@
 [gd_scene load_steps=3 format=3 uid="uid://mdof8mdypb1i"]
 
-[ext_resource type="Texture2D" uid="uid://dv1ybu76lr1v0" path="res://assets/Map_Normal_1102.png" id="1_6pmjc"]
+[ext_resource type="Texture2D" uid="uid://bj6yjeauleete" path="res://assets/boy1.png" id="1_6pmjc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_6pmjc"]
+radius = 13.0384
 
 [node name="Field" type="Node2D"]
+metadata/_edit_horizontal_guides_ = [96.0]
+metadata/_edit_vertical_guides_ = [76.0]
 
 [node name="Background" type="Sprite2D" parent="."]
 scale = Vector2(10, 10)
-texture = ExtResource("1_6pmjc")
 
 [node name="Leader" type="CharacterBody2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="Leader"]
+position = Vector2(0, -27)
+scale = Vector2(3, 3)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Leader"]
 shape = SubResource("CircleShape2D_6pmjc")
 
 [node name="Camera2D" type="Camera2D" parent="Leader"]
+
+[node name="Boy1" type="Sprite2D" parent="Leader"]
+scale = Vector2(2, 2)
+texture = ExtResource("1_6pmjc")
