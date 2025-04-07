@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cavfm5l4nnalv"
-path="res://.godot/imported/boy13.png-21a7325498759524465ec983d4beb726.ctex"
+uid="uid://xeiskmq6v2fn"
+path="res://.godot/imported/GoldMine_Destroyed.png-de78a91213c58b302f3bd9fbadb0ee43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy13.png"
-dest_files=["res://.godot/imported/boy13.png-21a7325498759524465ec983d4beb726.ctex"]
+source_file="res://assets/mine/GoldMine_Destroyed.png"
+dest_files=["res://.godot/imported/GoldMine_Destroyed.png-de78a91213c58b302f3bd9fbadb0ee43.ctex"]
 
 [params]
 

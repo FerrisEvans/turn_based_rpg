@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drx4d4478okhj"
-path="res://.godot/imported/boy12.png-865ef9ff6bdd75288444b0b168d31ce0.ctex"
+uid="uid://bblhdvw6ufvpy"
+path="res://.godot/imported/Shadows.png-f9cf5e35c798c8c1036e97f149fa1511.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy12.png"
-dest_files=["res://.godot/imported/boy12.png-865ef9ff6bdd75288444b0b168d31ce0.ctex"]
+source_file="res://assets/ground/Shadows.png"
+dest_files=["res://.godot/imported/Shadows.png-f9cf5e35c798c8c1036e97f149fa1511.ctex"]
 
 [params]
 

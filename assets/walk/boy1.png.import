@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqkjgq0s0jw6s"
-path="res://.godot/imported/boy15.png-75a71030a2d0f8c21f9c4aa703f5e38a.ctex"
+uid="uid://bj6yjeauleete"
+path="res://.godot/imported/boy1.png-b77dadd2fd1fffa929d999eaf93e1274.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy15.png"
-dest_files=["res://.godot/imported/boy15.png-75a71030a2d0f8c21f9c4aa703f5e38a.ctex"]
+source_file="res://assets/walk/boy1.png"
+dest_files=["res://.godot/imported/boy1.png-b77dadd2fd1fffa929d999eaf93e1274.ctex"]
 
 [params]
 

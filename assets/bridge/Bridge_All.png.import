@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjpiiiyphaj2p"
-path="res://.godot/imported/boy6.png-0c68742eeeb29c8ed19917759992cc7c.ctex"
+uid="uid://5s7c7tp7yq3w"
+path="res://.godot/imported/Bridge_All.png-c1772b5540938cc06a73184dcfcc9cc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy6.png"
-dest_files=["res://.godot/imported/boy6.png-0c68742eeeb29c8ed19917759992cc7c.ctex"]
+source_file="res://assets/bridge/Bridge_All.png"
+dest_files=["res://.godot/imported/Bridge_All.png-c1772b5540938cc06a73184dcfcc9cc3.ctex"]
 
 [params]
 
