@@ -1,16 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://mdof8mdypb1i"]
+[gd_scene load_steps=4 format=4 uid="uid://mdof8mdypb1i"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_6pmjc"]
-radius = 13.0384
+[ext_resource type="Texture2D" uid="uid://bffgypchjgqyy" path="res://assets/boy/Z100_stand1_01.png" id="1_6pmjc"]
+[ext_resource type="TileSet" uid="uid://cfu3o8b8hmp4o" path="res://tilesets/grass.tres" id="1_ttalb"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ttalb"]
 
 [node name="Field" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAAAD//wEACwAAAAAAAAAAAAIACwAAAAAAAAD//wIACwAAAAAAAAD//wMACwAAAAAAAAD//wAACwAAAAAAAAD/////CwAAAAAAAAAAAP7/CwAAAAAAAAABAAIACwAAAAAAAAAAAAMACwAAAAAAAAA=")
+tile_set = ExtResource("1_ttalb")
 
 [node name="Leader" type="CharacterBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Leader"]
-shape = SubResource("CircleShape2D_6pmjc")
+shape = SubResource("CircleShape2D_ttalb")
 
 [node name="Camera2D" type="Camera2D" parent="Leader"]
 
 [node name="Boy" type="Sprite2D" parent="Leader"]
-scale = Vector2(2, 2)
+position = Vector2(-2, -24)
+texture = ExtResource("1_6pmjc")
