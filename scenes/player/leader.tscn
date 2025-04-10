@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://5eojmpkvjoyg"]
+
+[ext_resource type="Script" uid="uid://ro1mp53y1a1w" path="res://scenes/player/leader.gd" id="1_dcai8"]
+[ext_resource type="Texture2D" uid="uid://bffgypchjgqyy" path="res://assets/boy/Z100_stand1_01.png" id="2_prf83"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ttalb"]
+
+[node name="Leader" type="CharacterBody2D"]
+script = ExtResource("1_dcai8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ttalb")
+
+[node name="Boy" type="Sprite2D" parent="."]
+position = Vector2(-2, -24)
+texture = ExtResource("2_prf83")
