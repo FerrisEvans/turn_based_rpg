@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gumrf2o8owag"
-path="res://.godot/imported/Z100_stand1_02.png-4df7107e49cc929039a511daff3232e2.ctex"
+uid="uid://cyg8o081jj02m"
+path="res://.godot/imported/Z100_walk_dl.png-4f9e097f36f3e6b8b1b71eab1c4f6fb0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy/Z100_stand1_02.png"
-dest_files=["res://.godot/imported/Z100_stand1_02.png-4df7107e49cc929039a511daff3232e2.ctex"]
+source_file="res://assets/boy/walk/Z100_walk_dl.png"
+dest_files=["res://.godot/imported/Z100_walk_dl.png-4f9e097f36f3e6b8b1b71eab1c4f6fb0.ctex"]
 
 [params]
 

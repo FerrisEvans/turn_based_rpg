@@ -3,7 +3,11 @@ extends CharacterBody2D
 var direction: Vector2
 var previous_direction: String
 var current_direction: String
+var current_animation: String
+var idle_animation = "idle_up"
+
 @export var speed: int = 200
+@onready var animation_player: AnimationPlayer = $AnimationPlayer
 
 const UP = "up"
 const DOWN = "down"
@@ -11,7 +15,8 @@ const LEFT = "left"
 const RIGHT = "right"
 
 func _physics_process(delta: float) -> void:
-	global_position += move() * delta
+	velocity = move()
+	global_position += velocity * delta
 
 
 func move() -> Vector2:
@@ -43,4 +48,12 @@ func move() -> Vector2:
 		direction = Vector2(-1, -0.5)
 	if Input.is_action_pressed(RIGHT) and current_direction == RIGHT:
 		direction = Vector2(1, 0.5)
+
+	if direction != Vector2.ZERO:
+		current_animation = "walk_" + current_direction
+		idle_animation = "idle_" + current_direction
+	else:
+		current_animation = idle_animation
+	animation_player.play(current_animation)
+	
 	return direction * speed
