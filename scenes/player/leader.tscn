@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://bffgypchjgqyy" path="res://assets/boy/Z100_stand1_01.png" id="2_prf83"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ttalb"]
+radius = 8.06226
 
 [node name="Leader" type="CharacterBody2D"]
 script = ExtResource("1_dcai8")
@@ -12,5 +13,5 @@ script = ExtResource("1_dcai8")
 shape = SubResource("CircleShape2D_ttalb")
 
 [node name="Boy" type="Sprite2D" parent="."]
-position = Vector2(-2, -24)
+position = Vector2(-3, -28)
 texture = ExtResource("2_prf83")
