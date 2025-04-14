@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxbbm5q083wyd"
-path="res://.godot/imported/23802.png-7ce8183625eb41ecb35b69143e356da0.ctex"
+uid="uid://bo2hq0dmo43xy"
+path="res://.godot/imported/B100_attack1_01-Sheet.png-c2af6c997e7da93a642ac1c22773b430.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/23802.png"
-dest_files=["res://.godot/imported/23802.png-7ce8183625eb41ecb35b69143e356da0.ctex"]
+source_file="res://assets/boy/battle/B100_attack1_01-Sheet.png"
+dest_files=["res://.godot/imported/B100_attack1_01-Sheet.png-c2af6c997e7da93a642ac1c22773b430.ctex"]
 
 [params]
 

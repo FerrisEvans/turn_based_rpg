@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=4 uid="uid://mdof8mdypb1i"]
 
 [ext_resource type="TileSet" uid="uid://cfu3o8b8hmp4o" path="res://tilesets/grass.tres" id="1_ttalb"]
-[ext_resource type="Texture2D" uid="uid://0v0bdk1n0pa7" path="res://assets/23801.png" id="2_lptdg"]
-[ext_resource type="Texture2D" uid="uid://bxbbm5q083wyd" path="res://assets/23802.png" id="3_7156t"]
+[ext_resource type="Texture2D" uid="uid://0v0bdk1n0pa7" path="res://assets/item/23801.png" id="2_lptdg"]
+[ext_resource type="Texture2D" uid="uid://bxbbm5q083wyd" path="res://assets/item/23802.png" id="3_7156t"]
 [ext_resource type="PackedScene" uid="uid://5eojmpkvjoyg" path="res://scenes/player/leader.tscn" id="4_7156t"]
 
 [node name="Field" type="Node2D"]

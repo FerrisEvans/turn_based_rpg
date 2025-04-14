@@ -1,14 +1,14 @@
 [gd_scene load_steps=21 format=3 uid="uid://5eojmpkvjoyg"]
 
 [ext_resource type="Script" uid="uid://ro1mp53y1a1w" path="res://scenes/player/leader.gd" id="1_dcai8"]
-[ext_resource type="Texture2D" uid="uid://bffgypchjgqyy" path="res://assets/boy/idle/Z100_stand1_01.png" id="2_prf83"]
-[ext_resource type="Texture2D" uid="uid://cr5p6l3v5gdc5" path="res://assets/boy/idle/B100_stand1_02.png" id="3_7kgeb"]
-[ext_resource type="Texture2D" uid="uid://gumrf2o8owag" path="res://assets/boy/idle/Z100_stand1_02.png" id="4_7oi7s"]
-[ext_resource type="Texture2D" uid="uid://cej8iqfb3f6c1" path="res://assets/boy/idle/B100_stand1_01.png" id="5_4ttm7"]
-[ext_resource type="Texture2D" uid="uid://cyg8o081jj02m" path="res://assets/boy/walk/Z100_walk_dl.png" id="6_n1s8s"]
-[ext_resource type="Texture2D" uid="uid://dyjwrkx6wecas" path="res://assets/boy/walk/B100_walk_ul.png" id="7_mmipf"]
-[ext_resource type="Texture2D" uid="uid://cpoqoh2a243gd" path="res://assets/boy/walk/Z100_walk_dr.png" id="8_ee60m"]
-[ext_resource type="Texture2D" uid="uid://d1frq1fkekgnj" path="res://assets/boy/walk/B100_walk_ur.png" id="9_1m0vm"]
+[ext_resource type="Texture2D" uid="uid://bffgypchjgqyy" path="res://assets/boy/explore/idle/Z100_stand1_01.png" id="2_prf83"]
+[ext_resource type="Texture2D" uid="uid://cr5p6l3v5gdc5" path="res://assets/boy/explore/idle/B100_stand1_02.png" id="3_7kgeb"]
+[ext_resource type="Texture2D" uid="uid://gumrf2o8owag" path="res://assets/boy/explore/idle/Z100_stand1_02.png" id="4_7oi7s"]
+[ext_resource type="Texture2D" uid="uid://cej8iqfb3f6c1" path="res://assets/boy/explore/idle/B100_stand1_01.png" id="5_4ttm7"]
+[ext_resource type="Texture2D" uid="uid://cyg8o081jj02m" path="res://assets/boy/explore/walk/Z100_walk_dl.png" id="6_n1s8s"]
+[ext_resource type="Texture2D" uid="uid://dyjwrkx6wecas" path="res://assets/boy/explore/walk/B100_walk_ul.png" id="7_mmipf"]
+[ext_resource type="Texture2D" uid="uid://cpoqoh2a243gd" path="res://assets/boy/explore/walk/Z100_walk_dr.png" id="8_ee60m"]
+[ext_resource type="Texture2D" uid="uid://d1frq1fkekgnj" path="res://assets/boy/explore/walk/B100_walk_ur.png" id="9_1m0vm"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ttalb"]
 radius = 8.06226
@@ -26,58 +26,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [1]
-}
-
-[sub_resource type="Animation" id="Animation_n1s8s"]
-resource_name = "idle_up"
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Boy:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("3_7kgeb")]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Boy:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(-1, -29)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("Boy:hframes")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [1]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("Boy:frame")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [0]
 }
 
 [sub_resource type="Animation" id="Animation_mmipf"]
@@ -106,6 +54,58 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(3, -30), Vector2(3, -30)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Boy:hframes")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Boy:frame")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_1m0vm"]
+resource_name = "idle_left"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Boy:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(2, -28)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Boy:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("5_4ttm7")]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -184,32 +184,32 @@ tracks/3/keys = {
 "values": [0]
 }
 
-[sub_resource type="Animation" id="Animation_1m0vm"]
-resource_name = "idle_left"
+[sub_resource type="Animation" id="Animation_n1s8s"]
+resource_name = "idle_up"
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Boy:position")
+tracks/0/path = NodePath("Boy:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(2, -28)]
+"update": 1,
+"values": [ExtResource("3_7kgeb")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Boy:texture")
+tracks/1/path = NodePath("Boy:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [ExtResource("5_4ttm7")]
+"update": 0,
+"values": [Vector2(-1, -29)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
@@ -342,7 +342,6 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id="Animation_dcai8"]
 resource_name = "walk_right"
-length = 1.0
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false

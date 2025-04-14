@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgc7elaxl755a"]
+
+[ext_resource type="Texture2D" uid="uid://cwug14uc6hctr" path="res://assets/enemy/idle/Z027_stand1_01.png" id="1_oqxvf"]
+
+[node name="Enemy" type="Node2D"]
+
+[node name="Enemy" type="Sprite2D" parent="."]
+position = Vector2(-1, -26)
+texture = ExtResource("1_oqxvf")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

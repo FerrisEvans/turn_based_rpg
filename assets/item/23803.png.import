@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cej8iqfb3f6c1"
-path="res://.godot/imported/B100_stand1_01.png-c3c3fae091550c78e3efb42190f56753.ctex"
+uid="uid://cg16wdhuhgbkt"
+path="res://.godot/imported/23803.png-698674af56260ddf42fafa1c153d72b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy/idle/B100_stand1_01.png"
-dest_files=["res://.godot/imported/B100_stand1_01.png-c3c3fae091550c78e3efb42190f56753.ctex"]
+source_file="res://assets/item/23803.png"
+dest_files=["res://.godot/imported/23803.png-698674af56260ddf42fafa1c153d72b9.ctex"]
 
 [params]
 

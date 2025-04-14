@@ -1,0 +1,46 @@
+[gd_scene load_steps=9 format=3 uid="uid://3odvryop1j8k"]
+
+[sub_resource type="Animation" id="Animation_a3qwh"]
+resource_name = "idle"
+
+[sub_resource type="Animation" id="Animation_oqqms"]
+resource_name = "die"
+
+[sub_resource type="Animation" id="Animation_2pell"]
+resource_name = "lie"
+
+[sub_resource type="Animation" id="Animation_qt4sa"]
+resource_name = "hurt"
+
+[sub_resource type="Animation" id="Animation_icxwo"]
+resource_name = "attack"
+
+[sub_resource type="Animation" id="Animation_fdm5v"]
+resource_name = "miss"
+
+[sub_resource type="Animation" id="Animation_402bq"]
+resource_name = "skill"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xkq6q"]
+_data = {
+&"attack": SubResource("Animation_icxwo"),
+&"die": SubResource("Animation_oqqms"),
+&"hurt": SubResource("Animation_qt4sa"),
+&"idle": SubResource("Animation_a3qwh"),
+&"lie": SubResource("Animation_2pell"),
+&"miss": SubResource("Animation_fdm5v"),
+&"skill": SubResource("Animation_402bq")
+}
+
+[node name="Player" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_xkq6q")
+}
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
