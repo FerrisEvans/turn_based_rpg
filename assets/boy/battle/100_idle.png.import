@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mveokmpj2jkq"
-path="res://.godot/imported/B100_stand2_01-Sheet.png-95b422fba8a05ee14d60479e837e80a0.ctex"
+path="res://.godot/imported/100_idle.png-9e319db79eaba17ca7c05b0e4359b60f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boy/battle/B100_stand2_01-Sheet.png"
-dest_files=["res://.godot/imported/B100_stand2_01-Sheet.png-95b422fba8a05ee14d60479e837e80a0.ctex"]
+source_file="res://assets/boy/battle/100_idle.png"
+dest_files=["res://.godot/imported/100_idle.png-9e319db79eaba17ca7c05b0e4359b60f.ctex"]
 
 [params]
 
