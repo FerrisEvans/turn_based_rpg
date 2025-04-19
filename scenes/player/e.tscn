@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://bpioq2gpcur4d"]
+
+[ext_resource type="Texture2D" uid="uid://cs32h1l8p15d6" path="res://assets/enemy/idle/Z027_stand1_01-export.png" id="1_sdm35"]
+[ext_resource type="Script" uid="uid://b1egwqswm3i6s" path="res://scenes/player/e.gd" id="1_vcv7k"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_vcv7k"]
+radius = 9.05539
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ooa8c"]
+radius = 41.1096
+
+[node name="E" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 23
+script = ExtResource("1_vcv7k")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1, -26)
+texture = ExtResource("1_sdm35")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_vcv7k")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 16
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_ooa8c")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

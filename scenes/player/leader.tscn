@@ -458,6 +458,7 @@ _data = {
 }
 
 [node name="Leader" type="CharacterBody2D"]
+collision_mask = 31
 script = ExtResource("1_dcai8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
