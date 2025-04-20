@@ -1,10 +1,13 @@
 extends CharacterBody2D
+class_name Leader
 
 var direction: Vector2
 var previous_direction: String
 var current_direction: String
 var current_animation: String
 var idle_animation = "idle_up"
+
+var battle_player: Array[Player] = []
 
 @export var speed: int = 200
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
