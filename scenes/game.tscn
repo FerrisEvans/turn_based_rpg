@@ -1,10 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://fspdagm7bbrm"]
+[gd_scene load_steps=2 format=3 uid="uid://fspdagm7bbrm"]
 
 [ext_resource type="PackedScene" uid="uid://mdof8mdypb1i" path="res://scenes/field/field.tscn" id="1_yqjtg"]
-[ext_resource type="PackedScene" uid="uid://b1d8cqngw7e6p" path="res://scenes/field/battle_field.tscn" id="2_lnu2h"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Field" parent="." instance=ExtResource("1_yqjtg")]
-
-[node name="BattleField" parent="." instance=ExtResource("2_lnu2h")]
