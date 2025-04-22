@@ -13,7 +13,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		var leader = body as Leader
 		if leader:
 			var tween = create_tween()
-			tween.tween_property(leader, "speed", 0, 1)
-			TransitionLayer.change_scene("res://scenes/field/battle_field.tscn") 
+			tween.tween_property(leader, "speed", 0, 0)
+			TransitionLayer.change_scene("res://scenes/field/battle_field.tscn")
 			print(battle_start)
 			battle_start.emit(battle_enemy, leader)
