@@ -15,6 +15,10 @@ run/main_scene="uid://fspdagm7bbrm"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+TransitionLayer="*res://global/transition_layer.tscn"
+
 [dotnet]
 
 project/assembly_name="turn_based_rpg"

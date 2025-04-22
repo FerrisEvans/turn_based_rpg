@@ -1,6 +1,7 @@
 extends CharacterBody2D
 class_name E
 
+
 signal battle_start(battle_enemy: Array[Enemy], leader: Leader)
 
 var battle_enemy: Array[Enemy] = []
@@ -11,5 +12,8 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		print("_on_area_2d_body_entered")
 		var leader = body as Leader
 		if leader:
+			var tween = create_tween()
+			tween.tween_property(leader, "speed", 0, 1)
+			TransitionLayer.change_scene("res://scenes/field/battle_field.tscn") 
 			print(battle_start)
 			battle_start.emit(battle_enemy, leader)
